@@ -1,0 +1,91 @@
+.bg{
+    background-color: rgb(16, 16, 16);
+    min-height: 100vh;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    margin-top: -4rem;
+
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list > *{
+    flex-basis: 90%;
+    margin: 1rem;
+}
+
+.dyno{
+    padding:0.7rem;
+    padding-bottom: 2rem;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.del img{
+    width: 30%;
+    border-radius: 15px;
+}
+.dimg{
+    width: 10rem;
+}
+.dtext p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.dyno img{
+    width: 100%;
+}
+
+.dlink a{
+    text-decoration: none;
+    padding: 0.9rem;
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+
+}
+.text{
+   
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+}
+.text h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.link{
+    text-align: center;
+    background-color: rgb(0, 255, 115);
+    border-radius: 10px;
+    display: block;
+}
+.git{
+    text-align: center;
+    background-color: rgb(255, 0, 238);
+    border-radius: 10px;
+    display: block;
+}
+.link:hover{
+    color: rgb(0, 255, 115);
+    background-color: white;
+}
+.git:hover{
+    color: violet;
+    background-color: white;
+}
+@media (max-width: 1100px){
+    .dyno{
+        flex-direction: column;
+        
+    }
+    .dlink{
+        width: 100%;
+    }
+}

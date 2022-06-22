@@ -1,0 +1,96 @@
+.head{
+    background-color: aqua;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link a{
+    display: block;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+.link a:hover{
+    background-color: aliceblue;
+}
+.cup{
+    width: 43px;
+    background-color: #111111;
+    border-radius: 10px;
+    margin-left: 8rem;
+}
+.bug{
+    display: none;
+}
+@media (max-width: 700px){
+    .head{
+        bottom: 0;
+        left: 0;
+        bottom: 0;
+        background-color: aqua;
+        border-radius: 0px;
+       
+        
+        
+    }
+    .link > *{
+        flex: 1 1 15%;
+    }
+    .link a{
+        padding: 0.8rem 0.1rem;
+        color: transparent;
+       
+    }
+    .link a:hover{
+        border: none;
+    }
+
+    .home{
+        background-image: url('./assets/home.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+        
+        
+    }
+    .abt{
+        background-image: url('./assets/user.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+       
+    }
+    .work{
+        background-image: url('./assets/case.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+       
+        
+    }
+    .apps{
+        background-image: url('./assets/project.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+        
+    }
+    .contact{
+        background-image: url('./assets/envelope.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+        
+    }
+    
+    
+}
